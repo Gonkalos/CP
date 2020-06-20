@@ -1,0 +1,9 @@
+digraph G {
+    /* edge [label=0]; */
+    graph [ranksep=0.5];
+    0 [shape=record, label="{{7}}"];
+    2 [shape=record, label="{{Empty}}"];
+    1 [shape=record, label="{{Empty}}"];
+    0 -> 2;
+    0 -> 1;
+}
